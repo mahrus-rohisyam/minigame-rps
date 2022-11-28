@@ -1,0 +1,34 @@
+{
+  "name": "minigame-rps",
+  "version": "1.0.0",
+  "description": "This is simple minigame using JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahrus-rohisyam/minigame-rps.git"
+  },
+  "keywords": [
+    "RPS",
+    "Rock",
+    "Paper",
+    "Scissor",
+    "Mini",
+    "Game",
+    "JavaScript",
+    "Vanilla",
+    "JavaScript",
+    "Pure",
+    "JavaScript",
+    "JS",
+    "DOM"
+  ],
+  "author": "Mahrus Sayid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahrus-rohisyam/minigame-rps/issues"
+  },
+  "homepage": "https://github.com/mahrus-rohisyam/minigame-rps#readme"
+}

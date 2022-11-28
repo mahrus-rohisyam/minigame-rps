@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Minigame - RPS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper and Scissor</h1>
+    </header>
+    <section id="score-board">
+      <div class="label-wrapper">
+        <div id="computer-label" class="badge">Computer</div>
+        <div id="user-label" class="badge">User</div>
+      </div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </section>
+    <section>
+      <p id="result">Could you beat the computer?</p>
+    </section>
+    <main id="game">
+      <div class="choice" id="rock" onclick="play('r')">✊</div>
+      <div class="choice" id="paper" onclick="play('p')">🖐️</div>
+      <div class="choice" id="scissor" onclick="play('s')">✌️</div>
+    </main>
+    <div id="message">
+      <p class="choice-message">Pick your choice!</p>
+      <button onclick="resetGame()" class="reset-button">Reset</button>
+    </div>
+    <footer>
+      Copyright &copy; 2021 by
+      <a href="https://github.com/mahrus-rohisyam">Mahrus Sayid</a>
+    </footer>
+    <script src="/main.js"></script>
+  </body>
+</html>
